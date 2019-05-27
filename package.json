@@ -1,0 +1,27 @@
+{
+  "name": "Server-Side-Portfolio",
+  "version": "1.0.0",
+  "description": "Server side for sending emails using SendGrid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SorinC6/Server-Side-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SorinC6/Server-Side-Portfolio/issues"
+  },
+  "homepage": "https://github.com/SorinC6/Server-Side-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.18.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
