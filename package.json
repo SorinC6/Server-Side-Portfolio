@@ -4,6 +4,8 @@
   "description": "Server side for sending emails using SendGrid",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +21,8 @@
   "homepage": "https://github.com/SorinC6/Server-Side-Portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "helmet": "^3.18.0"
+    "helmet": "^3.18.0",
+    "nodemon": "^1.19.1"
   },
   "devDependencies": {
     "dotenv": "^8.0.0"
