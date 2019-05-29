@@ -13,9 +13,7 @@ server.use(helmet());
 server.use(express.json());
 server.use(cors());
 
-server.get("/", (req, res) => {
-  res.send("<h1>Hello From the Server</h1>");
-});
+
 
 server.get("/send-email", (req, res) => {
   //Get Variables from query string in the search bar
