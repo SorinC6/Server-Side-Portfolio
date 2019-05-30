@@ -5,15 +5,12 @@ const cors = require("cors"); //needed to disable sendgrid security
 const sgMail = require("@sendgrid/mail"); //sendgrid library to send emails
 const server = express();
 
-console.log(process.env.SENDGRID_API_KEY);
 //sendgrid api key
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 server.use(helmet());
 server.use(express.json());
 server.use(cors());
-
-
 
 server.get("/send-email", (req, res) => {
   //Get Variables from query string in the search bar
