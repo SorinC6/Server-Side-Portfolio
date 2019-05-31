@@ -25,7 +25,10 @@ server.get("/send-email", (req, res) => {
   };
 
   //Send Email
-  sgMail.send(msg).then(msg => console.log(text));
+  sgMail.send(msg).then(msg => {
+    console.log(text);
+    res.end();
+  });
 });
 
 module.exports = server;
