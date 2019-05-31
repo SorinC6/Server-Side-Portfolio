@@ -6,6 +6,7 @@ const sgMail = require("@sendgrid/mail"); //sendgrid library to send emails
 const server = express();
 
 //sendgrid api key
+//another one
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 server.use(helmet());
