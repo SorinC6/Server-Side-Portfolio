@@ -10,6 +10,6 @@ server.get("/", (req, res) => {
   res.send("<h1>Hello From the Server</h1>");
 });
 
-server.listen(PORT || 4000, () => {
+server.listen(PORT, () => {
   console.log(`\n*** Server Running on http://localhost:${PORT} ***\n`);
 });
